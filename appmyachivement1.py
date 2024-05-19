@@ -7,7 +7,7 @@ import pickle
 st.set_page_config(page_title="Heart Disease Prediction", layout="wide")
 
 # Load the model and feature names
-model_path = 'models/rfc_model.pkl'
+model_path = 'rfc_model.pkl'
 with open(model_path, 'rb') as file:
     loaded_model, feature_names = pickle.load(file)
 
