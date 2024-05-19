@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
+import sklearn
 
 # Set page configuration
 st.set_page_config(page_title="Heart Disease Prediction", layout="wide")
